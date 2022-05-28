@@ -1,0 +1,13 @@
+server:
+  port: 8086
+
+spring:
+  mvc:
+    pathmatch:
+      ## https://blog.csdn.net/weixin_52404197/article/details/121792120
+      matching-strategy: ant_path_matcher
+
+knife4j:
+  setting:
+    language: en-US
+  enable: true
